@@ -1,0 +1,22 @@
+@mixin container {
+    margin: 0 auto;
+    max-width: $screen-xl;
+}
+
+@mixin container-main {
+    margin: 0 auto;
+    max-width: $screen-lg;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
